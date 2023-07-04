@@ -74,9 +74,9 @@ section .sky figure img{
 section .town .circle{
     position: absolute;
     bottom: 104px;
-    left: 50%;
-    transform: translateX(-80%);
+    left: 25%;
     opacity: 0.7;
+    animation: rotation linear 30s infinite;
 }
 section .town .night{
     width: 936px;
